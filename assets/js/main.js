@@ -144,4 +144,11 @@
 		return false;
 	});
 
+	// *********** Reset handler that clears the form ***********
+
+    $('form[name="contact"] input:reset').click(function () {
+        $('form[name="contact"]').find('textarea, :text, :email, select').val('');
+        return false;
+    });
+
 })(jQuery);
