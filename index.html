@@ -116,13 +116,14 @@
                 <div class="container">
                   <h3>Contact Me</h3>
                   <p>If you are interested in my habilities and think I can add value to you company, please contact me using this pretty form below:</p>
-                  <form method="post" action="#">
+                  <form method="post" action="http://formspree.io/bmpasini@gmail.com">
+                    <input type="text" name="_gotcha" style="display:none" /> <!-- Avoid spam by fooling scrapers. If a value is provided, the submission will be silently ignored.-->
                     <div class="row uniform">
                       <div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                      <div class="6u 12u(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+                      <div class="6u 12u(xsmall)"><input type="email" name="_replyto" id="email" placeholder="Email" /></div>
                     </div>
                     <div class="row uniform">
-                      <div class="12u"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+                      <div class="12u"><input type="text" name="_subject" id="subject" placeholder="Subject" /></div>
                     </div>
                     <div class="row uniform">
                       <div class="12u"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
