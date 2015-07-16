@@ -114,8 +114,8 @@
 
 	var showChar = 0;
 	var ellipsestext = "...";
-	var moretext = "Show more";
-	var lesstext = "Show less";
+	var moretext = "Tell me more!";
+	var lesstext = "Hide text";
 	$('.more').each(function() {
 		var content = $(this).html();
 
